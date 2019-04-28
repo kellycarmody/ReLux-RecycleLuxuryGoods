@@ -91,3 +91,24 @@ section:nth-child(2) {
 .nav-item {
     margin-right: 16px;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--dark-gray-color);
+}
+
+.navbar {
+    background-color: var(--light-gray-color);
+}
+
+.btn-primary {
+    background-color: var(--dark-gray-color);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.navbar .btn-primary {
+    background-color: var(--secondary-color);
+}

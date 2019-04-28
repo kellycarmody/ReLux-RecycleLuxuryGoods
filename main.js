@@ -20,7 +20,12 @@ var script_url = "https://sheetdb.io/api/v1/iknrrsimgqa4j"; // totally insecure,
                 data: [{email, quantity, company, apparel_type}]
             },
             method: "POST",
-            dataType: "json"
+            dataType: "json",
+            context: '#results',
+            success: function() {
+                console.log($(this));
+                $(this).html('<p> Your article was successfully added!</p>')
+            }
         });
 
     });
