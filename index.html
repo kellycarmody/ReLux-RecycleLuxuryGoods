@@ -25,32 +25,21 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
             aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="basicExampleNav">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home
-                  <span class="sr-only">(current)</span>
-                </a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#process">How Relux Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#why">Why?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                <button type="button" class="btn btn-primary mr-4" onclick="#sign-up">Sign up</button>
               </li>
             </ul>
           </div>
@@ -60,13 +49,13 @@
         <div class="mask absolute-center text-center">
           <h1 class="lead-text mb-4">A new life for unwanted luxury jeans</h1>
           <button type="button" class="btn btn-primary mr-4">Sign up now</button>
-          <button type="button" class="btn btn-outline-secondary">How it works</button>
+          <button type="button" class="btn btn-outline-secondary">Learn more</button>
         </div>
       </div>
     </header>
     <main>
       <div class="container-fluid remove-padding">
-        <section class="text-center pt-5 pb-5">
+        <section class="text-center pt-5 pb-5" id="process">
           <h3>Process</h3>
           <div class="row">
             <div class="col-md-12">
@@ -74,7 +63,7 @@
             </div>
           </div>
         </section>
-        <section class="text-center pt-5 pb-5">
+        <section class="text-center pt-5 pb-5" id="why">
           <h3 class="mt-4 mb-4">Why participate?</h3>
           <div class="row">
             <div class="col-md-4">
@@ -91,7 +80,7 @@
             </div>
           </div>
         </section>
-        <section class="text-center pt-5 pb-5">
+        <section class="text-center pt-5 pb-5" id="sign-up">
           <h3>Join us</h3>
           <div class="row">
             <div class="col-md-6 mx-auto">
@@ -124,7 +113,7 @@
                 <button type="submit" class="btn btn-primary">Submit</button><br>
             </div>
             </form>
-            <div id="#myResultsDiv"></div>
+            <div id="#results"></div>
           </div>
       </div>
       </section>
