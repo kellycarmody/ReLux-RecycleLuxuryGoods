@@ -18,6 +18,12 @@ body {
     background-size: cover;
 }
 
+/* utilities */
+.remove-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .absolute-center {
     position: absolute;
     top: 50%;
@@ -65,4 +71,17 @@ h3 {
     --medium-gray-color: #3b3a36;
     --light-medium-gray-color: #808082;
     --light-gray-color: #e6e9e6;
+}
+
+/* text color */
+.text-light-gray {
+    color: var(--light-gray-color);
+}
+
+.text-medium-gray {
+    color: var(--medium-gray-color);
+}
+
+section:nth-child(2) {
+    background-color: var(--primary-color);
 }
