@@ -11,6 +11,14 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
     </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="jquery.min.js"><\/script>')
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
+      integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="main.js"></script>
   </head>
 
   <body>
@@ -50,8 +58,8 @@
       </nav>
       <div id="intro" class="view">
         <div class="mask absolute-center text-center">
-          <h1 class="lead-text">A new life for unwanted luxury jeans</h1>
-          <button type="button" class="btn btn-primary">Sign up now</button>
+          <h1 class="lead-text mb-4">A new life for unwanted luxury jeans</h1>
+          <button type="button" class="btn btn-primary mr-4">Sign up now</button>
           <button type="button" class="btn btn-outline-secondary">How it works</button>
         </div>
       </div>
@@ -59,16 +67,16 @@
     <main>
       <div class="container-fluid remove-padding">
         <section class="text-center pt-5 pb-5">
+          <h3>Process</h3>
           <div class="row">
             <div class="col-md-12">
-              <h3>Process</h3>
               <p>placeholder text</p>
             </div>
           </div>
         </section>
         <section class="text-center pt-5 pb-5">
           <h3 class="mt-4 mb-4">Why participate?</h3>
-          <div class=" row">
+          <div class="row">
             <div class="col-md-4">
               <h3>Lorem</h3>
               <p class="text-light-gray">ipsum</p>
@@ -90,19 +98,23 @@
               <form>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  <input type="email" name="email" class="form-control" aria-describedby="emailHelp"
                     placeholder="Enter email">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Company Name</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                  <label for="exampleFormControlTextarea1">Type of Apparel</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                  <label>Company Name</label>
+                  <input name="company" class="form-control"></input>
+                  <label>Type of Apparel</label>
+                  <input name="apparel" class="form-control"></input>
+                  <label>Quantity</label>
+                  <input name="quantity" class="form-control"></input>
+
                   <button type="submit" class="btn btn-primary">Submit</button><br>
                 </div>
               </form>
+              <div id="#myResultsDiv"></div>
             </div>
           </div>
         </section>
