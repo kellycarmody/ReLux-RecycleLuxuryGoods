@@ -5,8 +5,13 @@ header,
     height: 100%;
 }
 
+body {
+    font-family: "Lucida Grande";
+    size: 16px;
+}
+
 #intro {
-    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    background: url("images/apparel-blue-jeans-casual-1082529.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,4 +25,44 @@ header,
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia;
+}
+
+h1 {
+    size: 3em;
+    line-height: 1.05em;
+}
+
+h2 {
+    size: 2.25em;
+    line-height: 1.25em;
+}
+
+h3 {
+    size: 1.75em;
+    line-height: 1.25em;
+}
+
+.lead-text {
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+/* Colors */
+:root {
+    --primary-color: #DBA51F;
+    --secondary-color: #B19C68;
+    --dark-gray-color: #1c1c1c;
+    --medium-gray-color: #3b3a36;
+    --light-medium-gray-color: #808082;
+    --light-gray-color: #e6e9e6;
 }
