@@ -21,12 +21,10 @@ var script_url = "https://sheetdb.io/api/v1/iknrrsimgqa4j"; // totally insecure,
             },
             method: "POST",
             dataType: "json",
-            context: '#results',
             success: function() {
-                console.log($(this));
-                $(this).html('<p> Your article was successfully added!</p>')
+                console.log('test');
+                alert('test');
             }
-        });
-
+        })
     });
 });
