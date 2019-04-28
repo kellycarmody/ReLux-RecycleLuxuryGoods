@@ -105,19 +105,29 @@
                 </div>
                 <div class="form-group">
                   <label>Company Name</label>
-                  <input name="company" class="form-control"></input>
-                  <label>Type of Apparel</label>
-                  <input name="apparel" class="form-control"></input>
-                  <label>Quantity</label>
-                  <input name="quantity" class="form-control"></input>
-
-                  <button type="submit" class="btn btn-primary">Submit</button><br>
+                  <input name="company" class="form-control" placeholder="Company name"></input>
                 </div>
-              </form>
-              <div id="#myResultsDiv"></div>
+
+                <div class="form-group">
+                  <label>Type of Apparel</label>
+                  <select name="apparel" class="form-control">
+                    <option value="Denim Jeans">Denim Jeans</option>
+                    <option value="Jeggings">Jeggings</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label>Quantity</label>
+                  <input name="quantity" class="form-control" type="number" placeholder="10" min=0></input>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button><br>
             </div>
+            </form>
+            <div id="#myResultsDiv"></div>
           </div>
-        </section>
+      </div>
+      </section>
       </div>
     </main>
     <footer>
