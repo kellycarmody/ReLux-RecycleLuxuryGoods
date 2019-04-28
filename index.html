@@ -1,38 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+  <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ReLux</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-</head>
-<body>
-    <h1>ReLux</h1>
-    Join us now!
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    </script>
+  </head>
 
-    <h3>Process</h3>
-    <p>placeholder text</p>
-
-    <h3>Why Participate?</h3>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem suscipit, quia impedit ipsa deleniti vitae nostrum dicta fuga. Impedit corrupti enim cupiditate magnam id delectus voluptate nisi itaque facere porro.</p>
-
-
-<h3>Join us!</h3>
-        <form>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="intro" class="view">
+        <div class="mask absolute-center">
+          <h1>Test</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="text-center mt-5 mb-5">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Process</h3>
+              <p>placeholder text</p>
+            </div>
+          </div>
+        </section>
+        <section class="text-center mt-5 mb-5">
+          <h3>Why participate?</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Lorem</h3>
+              <p>ipsum</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Lorem</h3>
+              <p>ipsum</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Lorem</h3>
+              <p>ipsum</p>
+            </div>
+          </div>
+        </section>
+        <section class="text-center mt-5 mb-5">
+          <h3>Join us</h3>
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <form>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
                 </div>
                 <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Company Name</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                        <label for="exampleFormControlTextarea1">Type of Apparel</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-                        <button type="submit" class="btn btn-primary">Submit</button><br>
-                      </div>
-    
-</body>
+                  <label for="exampleFormControlTextarea1">Company Name</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  <label for="exampleFormControlTextarea1">Type of Apparel</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                  <button type="submit" class="btn btn-primary">Submit</button><br>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
+
 </html>
