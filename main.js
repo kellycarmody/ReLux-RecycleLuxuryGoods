@@ -22,8 +22,7 @@ var script_url = "https://sheetdb.io/api/v1/iknrrsimgqa4j"; // totally insecure,
             method: "POST",
             dataType: "json",
             success: function() {
-                console.log('test');
-                alert('test');
+                alert('Thank you, we will get back to you in 1-3 business days.');
             }
         })
     });
